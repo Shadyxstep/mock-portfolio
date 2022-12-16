@@ -16,7 +16,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-image: url('/assets/img/track.jpg');
+    background-image: url('../assets/img/track.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,7 +26,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-image: url('/assets/img/track.jpg');
+    background-image: url('../assets/img/track.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
