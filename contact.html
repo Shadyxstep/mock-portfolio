@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 006</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/app/css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css?_cacheOverride=1670930166425" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon active"></span>
+          </button>
+            <div class="collapse navbar-collapse text" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar-->
+
+    <!-- Landing Page -->
+    <div class="wrapper">
+        <div class="overlay justify-content-center d-flex">
+            <div class="container text-center m-auto">
+                <div class="row mb-5">
+                    <div class="col justify-content-center d-flex align-items-left flex-column p-3 form-container" id="form-container">
+                        <i class="fa-solid fa-pencil landing-text h1" id="pencil"></i>
+                        <h1 class="landing-text" id="contact-title">Contact Me</h1>
+                        <form class="w-50 mb-5 p-3 bg-dark pb-4" style="border-radius: 15px;" id="myForm">
+                            <div class="form-group form-text p-2 text-start">
+                                <label for="exampleInputEmail1">First Name</label>
+                                <input type="text" class="form-control" placeholder="First Name" id="firstName">
+                            </div>
+                            <div class="form-group form-text p-2 text-start">
+                                <label for="exampleInputPassword1">Surname</label>
+                                <input type="text" class="form-control" placeholder="Surname" id="surname">
+                            </div>
+                            <div class="form-group form-text p-2 text-start">
+                                <label for="exampleInputPassword1">Address</label>
+                                <input type="text" class="form-control" placeholder="Address" id="address">
+                            </div>
+                            <div class="form-group form-text p-2 text-start">
+                                <label for="exampleInputPassword1">Mobile Number</label>
+                                <input type="text" class="form-control" placeholder="Mobile Number" id="mobile">
+                            </div>
+                            <div class="form-group form-text p-2 text-start">
+                                <label for="exampleInputPassword1">Email</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email">
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-4 w-50 p-2">Submit</button>
+                        </form>
+                        <div id="thankYouMessage" class="text-white thank-you" style="display:none">
+                            <h1 class="landing-text"><span id="thankYouTitle"></span></h4>
+                                <p class="landing-text">We will get in touch with you soon on <span id="emailSpan" style="color:aqua"></span></p>
+                                <a type="button" class="btn btn-primary mt-4 w-25 p-2" href="/index.html">Go Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End Landing Page -->
+
+    <!-- Footer-->
+    <footer>
+        <div class="footer bg-dark">
+            <div class="row">
+                <div class="col justify-content-center d-flex align-items-center flex-column p-3">
+                    <p class="landing-text">Contact:</p>
+                    <a class="landing-text" href="https://www.instagram.com/">Instagram <i class="fa-brands fa-instagram"></i></a>
+                    <a class="landing-text" href="https://twitter.com/home">Twitter <i class="fa-brands fa-twitter"></i></a>
+                    <p class="landing-text"></p><a class="landing-text" href="mailto:leor@gmail.com">leo@gmail.com <i class="fa-regular fa-envelope"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+
+    <!-- JS Script -->
+    <script src="/app/js/script.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
